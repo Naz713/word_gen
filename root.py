@@ -11,7 +11,7 @@ arr = list(arr)
 arr.sort()
 print len(arr)
 
-with open('word_list.csv', mode='w+') as f:
+with open('sorted_word_list.csv', mode='w+') as f:
     writer = csv.writer(f, delimiter=' ', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     for x in arr:
         writer.writerow([x])
