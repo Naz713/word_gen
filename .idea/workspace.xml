@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4258f80-6468-4f03-8e45-5d06134ffa43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/old_word_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old_word_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root.py" beforeDir="false" afterPath="$PROJECT_DIR$/root.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
