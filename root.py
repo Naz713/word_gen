@@ -16,7 +16,12 @@ with open('sorted_word_list.csv', mode='w+') as f:
     for x in arr:
         writer.writerow([x])
 
-with open('sufix_word_list.csv', mode='w+') as f:
+arr_root = reduce(lambda z, y: y.split(" ") + z, arr, [])
+arr = set(arr_root)
+arr = list(arr)
+arr.sort()
+
+with open('flex_root_list.csv', mode='w+') as f:
     writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     
     for k, x in groupby(arr, lambda y: y[:3] if len(y) > 1 else y[0]):
