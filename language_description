@@ -33,9 +33,9 @@ Estructura de la oración: VSO
 
 
 Categorias:
-1 - Vivo, animado de libre voluntad
-2 - Vivo y que es parte de algo vivo que lo contiene, animado o no
-3 - Vivo e inanimado, parte de algo mayor o no
+1 - Vivo y animado y de libre voluntad
+2 - Vivo (animado o no) y parte de algo vivo que lo contiene
+3 - Vivo e inanimado (parte de algo mayor o no)
 4 - No vivo, animado pero sujeto a reglas dadas o a una voluntad ajena
 5 - Objeto no inanimado
 
@@ -64,6 +64,7 @@ Pronombres:
 Por categoría, número y persona
 Singular:
  Categoría |  Primera Persona  |    Segunda Persona    |    Tercera Persona
+ ----------------------------------------------------------------------------
      1 (n) |     idaed         |      xuo              | naem
      1 (v) |     idaedoel      |      xuodoem          | naedoem
      1 (p) |     idaeneo       |      xuoneom          | naeleom
@@ -105,6 +106,7 @@ Auxiliar de aspecto irrealidad y evidencialidad. Denota que tan fidedigna es la 
 así como si solo se trata de algo hypotetico.
 
 Evidenciality   |   Hypotetical |   Non-hypotetical
+-----------------------------------------------------
 Certainty       |    nael       |    saelael
 Deduction       |    (omite)    |    sael
 Asumption       |    xaos       |    xaosael
@@ -118,6 +120,7 @@ Auxiliar de conjugación. Contiene la información del tiempo y de los aspectos:
 progresivo, habitual, perfecto e imperfecto.
 
 Aspecto     | Pasado Inmemorable   |   Pasado Memorable    | Presente      |   Futuro
+---------------------------------------------------------------------------------------
 Perfect     |
 Imperfect   |
 Progresive  |
@@ -141,12 +144,11 @@ salvo un gran cambio de paradigma en la proopia conversación.
 
 Conjugaciones del Verbo (V^C):
 Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 2ª, 3ª), número (S, P) y categoria
-(para este objetivo las categorias se simplifican: 1,2/3,4,5).
+(para este objetivo las categorias se simplifican: 1,2,3/4,5, vivo y sexuable "V" contra no vivo ni sexuable "O").
 Además contiene la información de si se habla del verbo en positivo o esta negado.
 
-
 Estructura de verbo conjugado:
-""" 1ªRaizVerbo + Infijo1 + NegAf + (Infijo2) + 2ªRaizVerbo + (DemasRaices) + (Infijo2) + (LastRaizVerbo) """
+""" 1ªRaizVerbo + Infijo1 + PartNegAf + (Infijo2) + 2ªRaizVerbo + (DemasRaices) + (Infijo2) + (LastRaizVerbo) """
 
 Para los propositos de la conjugación del verbo, el verbo sin conjugar al que llamaremos RaizVerbo
 se descompondrá en segmentos de acuerdo a las mismas reglas de segmentación que para la pronunciación.
@@ -166,12 +168,24 @@ las únicas excepciones del canon de pronunciacíon, reslutando en segmentos de 
 23,233,232,2332,33232,333232, ...
 (Por lo anterior, casi todas las raices verbos tendrán tres, cinco o seis sílabas)
 
+PartNegAf:
+ : para afirmar la acción o cualidad del verbo
+ : para negar la acción o cualidad del verbo
 
+Infijo1 (Codifica el sexo y la categoría simplificada)
+ : VN
+ : VV
+ : VP
+ : VA
+ : ON
 
-
-
-
-
+Infijo2 (Codifica el número y persona)
+ : 1S
+ : 2S
+ : 3S
+ : 1P
+ : 2P
+ : 3P
 
 
 
