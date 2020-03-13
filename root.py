@@ -9,7 +9,7 @@ def agrupator(word, length, prefix=True):
         word = "".join(reversed(word))
     for letter in word:
         sufix += letter
-        if letter != '\xce' and letter != '\xc4':
+        if letter not in ['\xce', '\xc4', '\x91', '\xb2']:
             counter -= 1
         if counter == 0:
             return sufix if prefix else "".join(reversed(sufix))
