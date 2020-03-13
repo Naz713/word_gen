@@ -103,9 +103,9 @@ Certainty       |    nael       |    saelael
 Deduction       |    (omite)    |    sael
 Asumption       |    xaos       |    xaosael
 
-En la practica la categoria de Certanty se usa muy raramente,
+En la practica la categoria de Certainty se usa muy raramente,
 solo para cuando es necesario denotar lo verdaderamente fidedigno de la información.
-La categoria de Deduction tambíen se usará para habalr desde la memoria.
+La categoria de Deduction tambíen se usará para hablar desde la memoria, será la más usada.
 
 ConjAux
 Auxiliar de conjugación. Contiene la información del tiempo y de los aspectos:
@@ -120,13 +120,14 @@ Habitual    |
 El pasado inmemorable denota eventos que cayeron de cierta forma en el olvido, que ya no existen,
 siempre debe considerarse el contexto en el que se está usando, ya que no necesariamente es algo tan lejano en el tiempo.
 Bajo la optica de esta cultura el pasado es destruido algún tiempo despues de ser vivido,
-haciendo el viaje al pasado algo incomprensible, el pasado inmemorable habla de este concepto, que es sujeto al contexto.
+haciendo el viaje al pasado algo incomprensible, para hablar de eventos en este peridiodo de tiempo destruido se usa
+el pasado inmemorable, que es sujeto al contexto y sobretodo a la percepcion del hablante.
 
 El presente no es solo un instante, sino la experiencia que vivimos del presente.
 El presente incluye el pasado reciente, de no más de algunas horas en la mayoria de los casos,
 aunque el alcance puede crecer por contexto.
 
-El pasado memorable comprende entre los dos casos anteriores.
+El pasado memorable comprende el tiempo entre los dos casos anteriores.
 
 Al ser el tiempo experinecial/relativo en lugar de absoluto, en cada conversación el o los hablantes estableceran
 implicitamente cuales son los alcances de cada tiempo y este debe ser constante durante la conversación o el tema,
@@ -140,7 +141,8 @@ Además contiene la información de si se habla del verbo en positivo o esta neg
 Estructura de verbo conjugado:
 Para los propositos de la conjugación del verbo, el verbo sin conjugar al que llamaremos RaizVerbo
 se descompondrá en segmentos de acuerdo a las mismas reglas de segmentación que para la pronunciación.
-Es esperado que solo haya dos segmentos, en el caso de un tercero, el segundo infijo se mueve a una segunda posición.
+Es esperado que solo haya dos segmentos, en el caso de un tercero, el segundo infijo se mueve a una segunda posición
+marcada entre parentesis.
 
 """ 1ªRaizVerbo + Infijo1 + NegAf + Infijo2 + 2ªRaizVerbo + (Infijo2) + (3ªRaizVerbo) """
 
