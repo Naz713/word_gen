@@ -13,6 +13,7 @@ m
 n
 l
 
+
 Pronunciación (fija):
 Las palabras de hasta tres sílabas se acentúan en su primer sílaba, en su primer vocal,
 y la ultima vocal de su última sílaba se alarga.
@@ -20,15 +21,16 @@ Las palabras de cuatro sílabas o más se dividen en segmentos de a lo más tres
 que se pronuncian segun la reglan anterior.
 Las reglas para generar los segmentos de palabras son, por orden de importancia:
 -No habrá nunca un segmento de una sola sílaba
--No habrá nunca un segmento de menor tamaño antes de uno de mayor tamaño
 -Son preferidos siempre los segmentos de mayor tamaño
+-No habrá un segmento de menor tamaño antes de uno de mayor tamaño
 Generando entonces los siguientes segmentos, según el número de sílabas:
 4:22,5:32,6:33,7:322,8:332,9:333, ... , n:3+s(n-3)
 *Las palabras (sin conjugación o declinación) de 7 sílabas o más deben ser muy raras*
 
-Estructura de la oración: VSO
 
+Estructura de la oración: VSO
 """ ?Aux + IrrAux + V^C + ConjAux + Suj^D + DecAux + Title/Name """
+
 
 Categorias:
 1 - Vivo, animado de libre voluntad
@@ -37,7 +39,8 @@ Categorias:
 4 - No vivo, animado pero sujeto a reglas dadas o a una voluntad ajena
 5 - Objeto no inanimado
 
-Roots/Raices:
+
+Raices:
 noi     - abstracto/amplio/conceptual
 xao     - irracional/que no reflexiona/instinto/instintivo/impulso (con conotación negativa)
 lae/lao - fluido/agua/tiempo/rio/que se adapta y aprende
@@ -55,6 +58,7 @@ il      - descripción/forma (de ser/hacer)
 ius     - plural/mucho(s)
 oe      - "femenino" : que tiene vagina o su equivalente organo reproductivo
 eo      - "masculino" : que tiene pene o su equivalente organo reproductivo
+
 
 Pronombres:
 Por categoría, número y persona
@@ -78,6 +82,7 @@ Para los pronombres en plural simplemente se agregrega la palabra "lius" antes d
 En el caso de la primera persona "lius" se agrega para el plural exclusivo y "xolius" para el plural inclusivo.
 Sin embargo en casos informales "lius" también puede usarse para denotar el inclusivo, cuando esto es claro.
 
+
 ?Aux
 Auxiliares de pregunta. Marcan una oración como pregunta al inicio de la oración.
 
@@ -92,7 +97,8 @@ um       - pregunta por un valor de verdad (es cierto lo siguiente)
 Tema: "bax"
 Indica donde se centra la atención de la oración, en el caso de una pregunta cual es el tema de la pregunta.
 Es indispensable en las preguntas con la particula "um".
-Antecede a la palabra que resalta, ya sea como palabra o particula.
+Antecede a la palabra que resalta, como palabra.
+
 
 IrrAux
 Auxiliar de aspecto irrealidad y evidencialidad. Denota que tan fidedigna es la información,
@@ -103,9 +109,9 @@ Certainty       |    nael       |    saelael
 Deduction       |    (omite)    |    sael
 Asumption       |    xaos       |    xaosael
 
-En la practica la categoria de Certainty se usa muy raramente,
-solo para cuando es necesario denotar lo verdaderamente fidedigno de la información.
-La categoria de Deduction tambíen se usará para hablar desde la memoria, será la más usada.
+En la practica la categoria de Certainty es muy rara, solo usada cuando es necesario denotar lo verdaderamente fidedigno
+de la información. La categoria de Deduction tambíen se usará para hablar desde la memoria, será la más usada.
+
 
 ConjAux
 Auxiliar de conjugación. Contiene la información del tiempo y de los aspectos:
@@ -131,25 +137,34 @@ El pasado memorable comprende el tiempo entre los dos casos anteriores.
 
 Al ser el tiempo experinecial/relativo en lugar de absoluto, en cada conversación el o los hablantes estableceran
 implicitamente cuales son los alcances de cada tiempo y este debe ser constante durante la conversación o el tema,
-salvo un gran cambio de paradigma.
+salvo un gran cambio de paradigma en la proopia conversación.
 
 Conjugaciones del Verbo (V^C):
 Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 2ª, 3ª), número (S, P) y categoria
 (para este objetivo las categorias se simplifican: 1,2/3,4,5).
 Además contiene la información de si se habla del verbo en positivo o esta negado.
 
+
 Estructura de verbo conjugado:
+""" 1ªRaizVerbo + Infijo1 + NegAf + (Infijo2) + 2ªRaizVerbo + (DemasRaices) + (Infijo2) + (LastRaizVerbo) """
+
 Para los propositos de la conjugación del verbo, el verbo sin conjugar al que llamaremos RaizVerbo
 se descompondrá en segmentos de acuerdo a las mismas reglas de segmentación que para la pronunciación.
-Es esperado que solo haya dos segmentos, en el caso de un tercero, el segundo infijo se mueve a una segunda posición
-marcada entre parentesis.
+Una raiz de verbo nunca podrá conformarse de una sola sílaba.
 
-""" 1ªRaizVerbo + Infijo1 + NegAf + Infijo2 + 2ªRaizVerbo + (Infijo2) + (3ªRaizVerbo) """
+Es esperado que solo haya a lo más dos segmentos, en caso de más segmentos, el segundo infijo se mueve para estar entre
+el último y penultimo segmento. El primer infijo estará directa y únicamente influenciado por el primer segmento de la
+raiz del verbo, mientras que el segundo infijo lo estará del segmento de la raiz del verbo que se encuentre a su derecha,
+el último, si es que existe.
 
-El primer infijo estará directa y únicamente influenciado por el primer segmento de la raiz del verbo,
-mientras que el segundo infijo lo estará de del segmento de la raiz del verbo que se encuentre a su derecha.
-
-
+La segmentación original del verbo y por ende su pronunciación original se mantendrá incluso despues de ser conjugado.
+Con este fin los infijos junto con la inflexión de afirmación o negación, siempre resultarán en uno o dos segmentos de
+trés sílabas, esto es cierto sobretodo cuando el segundo infijo se mueve de lugar.
+Con ello aseguramos además cumplir con el canon de pronunciación para casi todos los verbos conjugados,
+salvo cuando la raiz este compuesta de únicamente dos, cuatro, siete o diez (1 mod 3) sílabas, cuyas conjugaciones serían
+las únicas excepciones del canon de pronunciacíon, reslutando en segmentos de las siguientes formas:
+23,233,232,2332,33232,333232, ...
+(Por lo anterior, casi todas las raices verbos tendrán tres, cinco o seis sílabas)
 
 
 
