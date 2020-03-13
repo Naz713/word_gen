@@ -146,7 +146,8 @@ marcada entre parentesis.
 
 """ 1ªRaizVerbo + Infijo1 + NegAf + Infijo2 + 2ªRaizVerbo + (Infijo2) + (3ªRaizVerbo) """
 
-
+El primer infijo estará directa y únicamente influenciado por el primer segmento de la raiz del verbo,
+mientras que el segundo infijo lo estará de del segmento de la raiz del verbo que se encuentre a su derecha.
 
 
 
