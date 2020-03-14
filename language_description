@@ -43,7 +43,7 @@ Categorias:
 Raices:
 noi     - abstracto/amplio/conceptual
 xao     - irracional/que no reflexiona/instinto/instintivo/impulso (con conotación negativa)
-lae/lao - fluido/agua/tiempo/rio/que se adapta y aprende
+lae     - fluido/agua/tiempo/rio/que se adapta y aprende
 idae    - singular/único/mismo/autoreflexivo
 deu     - inspiración/imaginación/novedoso/virtuoso
 sei     - natural/vivo/que respira/vegetación
@@ -121,7 +121,7 @@ progresivo, habitual, perfecto e imperfecto.
 
 Aspecto     | Pasado Inmemorable   |   Pasado Memorable    | Presente      |   Futuro
 ---------------------------------------------------------------------------------------
-Perfect     |
+Perfect     |    neixlaelum        |
 Imperfect   |
 Progresive  |
 Habitual    |
@@ -160,17 +160,17 @@ raiz del verbo, mientras que el segundo infijo lo estará del segmento de la rai
 el último, si es que existe.
 
 La segmentación original del verbo y por ende su pronunciación original se mantendrá incluso despues de ser conjugado.
-Con este fin los infijos junto con la inflexión de afirmación o negación, siempre resultarán en uno o dos segmentos de
-trés sílabas, esto es cierto sobretodo cuando el segundo infijo se mueve de lugar.
+Con este fin los infijos junto con la inflexión de afirmación o negación, siempre resultarán en dos segmentos de trés
+sílabas, esto es cierto sobretodo cuando el segundo infijo se mueve de lugar.
 Con ello aseguramos además cumplir con el canon de pronunciación para casi todos los verbos conjugados,
 salvo cuando la raiz este compuesta de únicamente dos, cuatro, siete o diez (1 mod 3) sílabas, cuyas conjugaciones serían
 las únicas excepciones del canon de pronunciacíon, reslutando en segmentos de las siguientes formas:
-23,233,232,2332,33232,333232, ...
+233,2332,33232,333232, ...
 (Por lo anterior, casi todas las raices verbos tendrán tres, cinco o seis sílabas)
 
 PartNegAf:
- : para afirmar la acción o cualidad del verbo
- : para negar la acción o cualidad del verbo
+sed    : para afirmar la acción o cualidad del verbo
+(l)oif : para negar la acción o cualidad del verbo
 
 Infijo1 (Codifica el sexo y la categoría simplificada)
  : VN
