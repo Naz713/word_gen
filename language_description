@@ -25,7 +25,7 @@ Las reglas para generar los segmentos de palabras son, por orden de importancia:
 -No habrá un segmento de menor tamaño antes de uno de mayor tamaño
 Generando entonces los siguientes segmentos, según el número de sílabas:
 4:22,5:32,6:33,7:322,8:332,9:333, ... , n:3+s(n-3)
-*Las palabras (sin conjugación o declinación) de 7 sílabas o más deben ser muy raras*
+*Las palabras (sin conjugación o declinación) de 7 sílabas o más son muy raras*
 
 
 Estructura de la oración: VSO
@@ -103,7 +103,7 @@ Antecede a la palabra que resalta, como palabra.
 
 IrrAux
 Auxiliar de aspecto irrealidad y evidencialidad. Denota que tan fidedigna es la información,
-así como si solo se trata de algo hypotetico.
+así como si se trata solo de algo hypotetico.
 
 Evidenciality   |   Hypotetical |   Non-hypotetical
 -----------------------------------------------------
@@ -142,6 +142,7 @@ Al ser el tiempo experinecial/relativo en lugar de absoluto, en cada conversaci�
 implicitamente cuales son los alcances de cada tiempo y este debe ser constante durante la conversación o el tema,
 salvo un gran cambio de paradigma en la proopia conversación.
 
+
 Conjugaciones del Verbo (V^C):
 Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 2ª, 3ª), número (S, P) y categoria
 (para este objetivo las categorias se simplifican: 1,2,3/4,5, vivo y sexuable "V" contra no vivo ni sexuable "O").
@@ -162,9 +163,9 @@ el último, si es que existe.
 La segmentación original del verbo y por ende su pronunciación original se mantendrá incluso despues de ser conjugado.
 Con este fin los infijos junto con la inflexión de afirmación o negación, siempre resultarán en dos segmentos de trés
 sílabas, esto es cierto sobretodo cuando el segundo infijo se mueve de lugar.
-Con ello aseguramos además cumplir con el canon de pronunciación para casi todos los verbos conjugados,
-salvo cuando la raiz este compuesta de únicamente dos, cuatro, siete o diez (1 mod 3) sílabas, cuyas conjugaciones serían
-las únicas excepciones del canon de pronunciacíon, reslutando en segmentos de las siguientes formas:
+Con ello aseguramos cumplir con el canon de pronunciación para casi todos los verbos conjugados, salvo cuando la raiz
+este compuesta de únicamente dos, cuatro, siete o diez (1 mod 3) sílabas, cuyas conjugaciones serían las únicas
+excepciones del canon de pronunciacíon, reslutando en segmentos de las siguientes formas:
 233,2332,33232,333232, ...
 (Por lo anterior, casi todas las raices verbos tendrán tres, cinco o seis sílabas)
 
