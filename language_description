@@ -1,18 +1,33 @@
-Catalogo de Letras y pronunciaciones:
-a : ä ; ə|_$
-e
-i
-o
-u
-b : p|$_ ; β|L_L,_$
-d : d|$_ ; đ|L_L ; θ|_$
-x : g|$_ ; ɣ|L_L ; x|_$
-f : v|$_ ; f|L_L,_$
-s : z|$_,L_L ; s|_$
-m
-n
-l
 
+"La lengua de aquellos que viajan sin hogar"
+
+Catalogo de Letras y pronunciaciones:
+/a/ [ä, ə]       : ə|_$
+/e/
+/i/
+/o/
+/u/
+/b/ [p, b, ɸ, β] : p|$_ ; β|L_L,_$
+/d/ [t, d, θ, đ] : d|$_ ; đ|L_L ; θ|_$
+/x/ [k, g, x, ɣ] : g|$_ ; ɣ|L_L ; x|_$
+/f/ [f, v]       : v|$_ ; f|L_L,_$
+/s/ [s, z]       : z|$_,L_L ; s|_$
+/m/
+/n/
+/l/
+
+El lenguaje acepta variaciones de sonoridad y plosividad en las consonantes, salvo en /s/.
+Todos los fonemas entre parentesis son aceptados como alófonos o variantes reginonales.
+Las reglas de pronunciación despues de los dos puntos son la norma sugerida de pronunciación.
+
+Construcción Silabica:
+     (c)v(v*)(c)
+Las letras entre parentesis pueden omitirse, sin embargo siempre debe haber una consonante, prefiriendose la segunda.
+La segunda vocal puede ser puesta solo mediante reglas especiales de construcción:
+TODO:
+Cuando la construcción de una palabra conjunte una sílaba que termine en vocal con otra que comience en vocal,
+se introducirá una "l" para mantener una construcción canonica.
+División silábica: una consonante siempre pertenece a la silaba de la vocal que la antecede, salvo que no exista.
 
 Pronunciación (fija):
 Las palabras de hasta tres sílabas se acentúan en su primer sílaba, en su primer vocal,
@@ -166,18 +181,18 @@ Con ello aseguramos cumplir con el canon de pronunciación para casi todos los v
 este compuesta de únicamente dos, cuatro, siete o diez (1 mod 3) sílabas, cuyas conjugaciones serían las únicas
 excepciones del canon de pronunciacíon, reslutando en segmentos de las siguientes formas:
 233,2332,33232,333232, ...
-(Por lo anterior, casi todas las raices verbos tendrán tres, cinco o seis sílabas)
+(Por lo anterior, casi todas las raices de los verbos tendrán tres, cinco o seis sílabas)
 
 PartNegAf:
 sed    : para afirmar la acción o cualidad del verbo
 (l)oif : para negar la acción o cualidad del verbo
 
 Infijo1 (Codifica el sexo y la categoría simplificada)
- : VN
- : VV
- : VP
- : VA
-xemol : ON
+ufem      : VN
+omix      : VV
+ela       : VP
+umai      : VA
+xemo(l)   : ON
 
 Infijo2 (Codifica el número y persona)
  : 1S
