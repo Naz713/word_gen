@@ -178,7 +178,7 @@ Infijo2 (Codifica el número y persona)
 
 ConjAux
 Auxiliar de conjugación. Contiene la información del tiempo y de los aspectos:
-progresivo, habitual, perfecto e imperfecto.
+habitual, perfecto e imperfecto/progresivo.
 
 Aspecto              |  Pasado Inmemorable | Pasado Memorable | Presente | Futuro
 -----------------------------------------------------------------------------------
