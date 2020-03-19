@@ -2,7 +2,7 @@
 "La lengua de aquellos que viajan sin hogar"
 
 Catalogo de Letras y pronunciaciones:
-/a/ [ä, ə]       : ə|_$
+/a/ [ä, ə]       : ə|_(c)$
 /e/
 /i/
 /o/
@@ -16,21 +16,32 @@ Catalogo de Letras y pronunciaciones:
 /n/
 /l/
 
-El lenguaje acepta variaciones de sonoridad y plosividad en las consonantes, salvo en /s/.
+El lenguaje acepta variaciones de sonoridad y plosividad en las consonantes,
+salvo en /s/ que no acepta variación en plosividad.
 Todos los fonemas entre parentesis son aceptados como alófonos o variantes reginonales.
 Las reglas de pronunciación despues de los dos puntos son la norma sugerida de pronunciación.
+
 
 Construcción Silabica:
      (c)v(v*)(c)
 Las letras entre parentesis pueden omitirse, sin embargo siempre debe haber una consonante, prefiriendose la segunda.
-La segunda vocal puede ser puesta solo mediante reglas especiales de construcción:
-TODO:
+La segunda vocal (v*) está señida a las siguientes reglas de construcción:
+     -La segunda vocal no puede ser igual a la primera
+     -La segunda vocal nunca puede ser /a/
+     -La segunda vocal no puede ser más abierta que la primera,
+      cambiar su punto de articualción y redondez al mismo tiempo.
+     Generando los siguientes pares de vocales prohibidas:
+          -aa, ee, ii, oo, uu
+          -ea, ia, oa, ua
+          -io, ue
 Cuando la construcción de una palabra conjunte una sílaba que termine en vocal con otra que comience en vocal,
-se introducirá una "l" para mantener una construcción canonica.
+se introducirá una /l/ para mantener la estructura sílabica; en los casos en que esta conjunción 
+no viole la construcción de sílabas, la /l/ puede omitirse.
 División silábica: una consonante siempre pertenece a la silaba de la vocal que la antecede, salvo que no exista.
 
+
 Pronunciación (fija):
-Las palabras de hasta tres sílabas se acentúan en su primer sílaba, en su primer vocal,
+Las palabras de hasta tres sílabas se acentúan en la primer vocal de su primer sílaba,
 y la ultima vocal de su última sílaba se alarga.
 Las palabras de cuatro sílabas o más se dividen en segmentos de a lo más tres sílabas
 que se pronuncian segun la reglan anterior.
@@ -41,10 +52,6 @@ Las reglas para generar los segmentos de palabras son, por orden de importancia:
 Generando entonces los siguientes segmentos, según el número de sílabas:
 4:22,5:32,6:33,7:322,8:332,9:333, ... , n:3+s(n-3)
 *Las palabras (sin conjugación o declinación) de 7 sílabas o más son muy raras*
-
-
-Estructura de la oración: VSO
-""" ?Aux + IrrAux + V^C + ConjAux + Suj^D + DecAux + Title/Name """
 
 
 Categorias:
@@ -99,11 +106,15 @@ En el caso de la primera persona "lius" se agrega para el plural exclusivo y "xo
 Sin embargo en casos informales "lius" también puede usarse para denotar el inclusivo, cuando esto es claro.
 
 
+Estructura de la oración: VSO
+""" ?Aux + IrrAux + V^C + ConjAux + Suj^D + DecAux + Title/Name """
+
+
 ?Aux
 Auxiliares de pregunta. Marcan una oración como pregunta al inicio de la oración.
 
 umulsaes - pregunta por la motivación (why/por qué)
-seaseum  - pregunta por la ubicación o lugar (dónde/where)
+saeseum  - pregunta por la ubicación o lugar (dónde/where)
 laedeum  - pregunta por la tempralidad (cuando/when)
 usimaeb  - pregunta por un objeto (what/qué)
 ulaem    - pregunta por un sujeto (who/quien)
@@ -129,7 +140,7 @@ En la practica la categoria de Certainty es muy rara, solo usada cuando es neces
 de la información. La categoria de Deduction tambíen se usará para hablar desde la memoria, será la más usada.
 
 
-Conjugaciones del Verbo (V^C):
+(V^C) Conjugaciones del Verbo:
 Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 2ª, 3ª), número (S, P) y categoria
 (para este objetivo las categorias se simplifican: 1,2,3/4,5, vivo y sexuable "V" contra no vivo ni sexuable "O").
 Además contiene la información de si se habla del verbo en positivo o esta negado.
@@ -182,7 +193,7 @@ habitual, perfecto e imperfecto/progresivo.
 Aspecto              |  Pasado Inmemorable | Pasado Memorable | Presente | Futuro
 -----------------------------------------------------------------------------------
 Perfect              |    neixlae          |     lae          |  (omite) |  biex
-Imperfect/Progresive |    neixlaeluem      |     laeluem      |   duem   |  biexuem
+Imperfect/Progresive |    neixlaeleum      |     laeleum      |   duem   |  biexeum
 Habitual             |    neixlaefaeb      |     laefaeb      |   faeb   |  biefaeb
 
 El pasado inmemorable denota eventos que cayeron de cierta forma en el olvido, que ya no existen,
