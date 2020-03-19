@@ -178,12 +178,12 @@ umai      : VA
 xemo(l)   : ON
 
 Infijo2 (Codifica el número y persona)
- : 1S
- : 2S
- : 3S
- : 1P
- : 2P
- : 3P
+adaedief       : 1S
+oxuoxief       : 2S
+aenaemief      : 3S
+adaedsuis      : 1P
+uxuoxsuis      : 2P
+aenaemsuis     : 3P
 
 
 ConjAux
