@@ -134,11 +134,11 @@ ConjAux
 Auxiliar de conjugación. Contiene la información del tiempo y de los aspectos:
 progresivo, habitual, perfecto e imperfecto.
 
-Aspecto             |  Pasado Inmemorable | Pasado Memorable | Presente | Futuro
+Aspecto              |  Pasado Inmemorable | Pasado Memorable | Presente | Futuro
 -----------------------------------------------------------------------------------
-Perfect             |    neixlae          |     lae          |  (omite) |  biex
-Imperfect/Progresive|    neixlaeluem      |     laeluem      |   duem   |  biexuem
-Habitual            |    neixlaefaeb      |     laefaeb      |   faeb   |  biefaeb
+Perfect              |    neixlae          |     lae          |  (omite) |  biex
+Imperfect/Progresive |    neixlaeluem      |     laeluem      |   duem   |  biexuem
+Habitual             |    neixlaefaeb      |     laefaeb      |   faeb   |  biefaeb
 
 El pasado inmemorable denota eventos que cayeron de cierta forma en el olvido, que ya no existen,
 siempre debe considerarse el contexto en el que se está usando, ya que no necesariamente es algo tan lejano en el tiempo.
