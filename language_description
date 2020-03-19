@@ -130,33 +130,6 @@ En la practica la categoria de Certainty es muy rara, solo usada cuando es neces
 de la información. La categoria de Deduction tambíen se usará para hablar desde la memoria, será la más usada.
 
 
-ConjAux
-Auxiliar de conjugación. Contiene la información del tiempo y de los aspectos:
-progresivo, habitual, perfecto e imperfecto.
-
-Aspecto              |  Pasado Inmemorable | Pasado Memorable | Presente | Futuro
------------------------------------------------------------------------------------
-Perfect              |    neixlae          |     lae          |  (omite) |  biex
-Imperfect/Progresive |    neixlaeluem      |     laeluem      |   duem   |  biexuem
-Habitual             |    neixlaefaeb      |     laefaeb      |   faeb   |  biefaeb
-
-El pasado inmemorable denota eventos que cayeron de cierta forma en el olvido, que ya no existen,
-siempre debe considerarse el contexto en el que se está usando, ya que no necesariamente es algo tan lejano en el tiempo.
-Bajo la optica de esta cultura el pasado es destruido algún tiempo despues de ser vivido,
-haciendo el viaje al pasado algo incomprensible, para hablar de eventos en este peridiodo de tiempo destruido se usa
-el pasado inmemorable, que es sujeto al contexto y sobretodo a la percepcion del hablante.
-
-El presente no es solo un instante, sino la experiencia que vivimos del presente.
-El presente incluye el pasado reciente, de no más de algunas horas en la mayoria de los casos,
-aunque el alcance puede crecer por contexto.
-
-El pasado memorable comprende el tiempo entre los dos casos anteriores.
-
-Al ser el tiempo experinecial/relativo en lugar de absoluto, en cada conversación el o los hablantes estableceran
-implicitamente cuales son los alcances de cada tiempo y este debe ser constante durante la conversación o el tema,
-salvo un gran cambio de paradigma en la proopia conversación.
-
-
 Conjugaciones del Verbo (V^C):
 Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 2ª, 3ª), número (S, P) y categoria
 (para este objetivo las categorias se simplifican: 1,2,3/4,5, vivo y sexuable "V" contra no vivo ni sexuable "O").
@@ -203,7 +176,31 @@ Infijo2 (Codifica el número y persona)
  : 3P
 
 
+ConjAux
+Auxiliar de conjugación. Contiene la información del tiempo y de los aspectos:
+progresivo, habitual, perfecto e imperfecto.
 
+Aspecto              |  Pasado Inmemorable | Pasado Memorable | Presente | Futuro
+-----------------------------------------------------------------------------------
+Perfect              |    neixlae          |     lae          |  (omite) |  biex
+Imperfect/Progresive |    neixlaeluem      |     laeluem      |   duem   |  biexuem
+Habitual             |    neixlaefaeb      |     laefaeb      |   faeb   |  biefaeb
+
+El pasado inmemorable denota eventos que cayeron de cierta forma en el olvido, que ya no existen,
+siempre debe considerarse el contexto en el que se está usando, ya que no necesariamente es algo tan lejano en el tiempo.
+Bajo la optica de esta cultura el pasado es destruido algún tiempo despues de ser vivido,
+haciendo el viaje al pasado algo incomprensible, para hablar de eventos en este peridiodo de tiempo destruido se usa
+el pasado inmemorable, que es sujeto al contexto y sobretodo a la percepcion del hablante.
+
+El presente no es solo un instante, sino la experiencia que vivimos del presente.
+El presente incluye el pasado reciente, de no más de algunas horas en la mayoria de los casos,
+aunque el alcance puede crecer por contexto.
+
+El pasado memorable comprende el tiempo entre los dos casos anteriores.
+
+Al ser el tiempo experinecial/relativo en lugar de absoluto, en cada conversación el o los hablantes estableceran
+implicitamente cuales son los alcances de cada tiempo y este debe ser constante durante la conversación o el tema,
+salvo un gran cambio de paradigma en la propia conversación.
 
 
 
