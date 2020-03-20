@@ -107,7 +107,7 @@ Sin embargo en casos informales "lius" también puede usarse para denotar el inc
 
 
 Estructura de la oración: VSO
-""" ?Aux + IrrAux + V^C + ConjAux + Suj^D + DecAux + Title/Name """
+""" ?Aux + IrrAux + V^C + ConjAux + DecAux1 + Sujeto^D + DecAux2 + Title/Name """
 
 
 ?Aux
