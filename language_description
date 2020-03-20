@@ -109,7 +109,7 @@ Sin embargo en casos informales "lius" también puede usarse para denotar el inc
 
 
 Estructura de la oración: VSO
-""" ?Aux + IrrAux + V^C + ConjAux + DecAux1 + Sujeto^D + DecAux2 + Title/Name """
+""" ?Aux + IrrAux + V^C + ConjAux + DecAux1 + Sujeto^D + Title/Name + DecAux2 """
 
 
 ?Aux
@@ -211,7 +211,23 @@ implicitamente cuales son los alcances de cada tiempo y este debe ser constante 
 salvo un gran cambio de paradigma en la propia conversación.
 
 
+DecAux1 (Preposición)
+Codifica los casos:
+: nominativo
+: acusativo
+: dativo
+: hablativo
 
+Sujeto^D
+Una post-inflexión codifica singularidad/pluralidad, Despectivo/Neutro/Afectivo.
+
+Deferencia | Singular | Plural
+-----------------------------------------------------------
+Afectivo   | 
+Neutro     |
+Despectivo |
+
+DecAux2 (PostPosición)
 
 
 
