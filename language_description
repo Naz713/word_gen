@@ -146,44 +146,40 @@ Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 
 Además contiene la información de si se habla del verbo en positivo o esta negado.
 
 Estructura de verbo conjugado:
-""" 1ªRaizVerbo + Infijo1 + PartNegAf + (Infijo2) + 2ªRaizVerbo + (DemasRaices) + (Infijo2) + (LastRaizVerbo) """
+""" 1ªRaizVerbo + Infijo1 + PartNegAf + Infijo2 + DemasRaices """
 
 Para los propositos de la conjugación del verbo, el verbo sin conjugar al que llamaremos RaizVerbo
 se descompondrá en segmentos de acuerdo a las mismas reglas de segmentación que para la pronunciación.
 Una raiz de verbo nunca podrá conformarse de una sola sílaba.
 
-Es esperado que solo haya a lo más dos segmentos, en caso de más segmentos, el segundo infijo se mueve para estar entre
-el último y penultimo segmento. El primer infijo estará directa y únicamente influenciado por el primer segmento de la
-raiz del verbo, mientras que el segundo infijo lo estará del segmento de la raiz del verbo que se encuentre a su derecha,
-el último, si es que existe.
+El primer infijo estará directa y únicamente influenciado por el primer segmento de la raiz del verbo, mientras que el segundo infijo lo estará del segmento a su derecha, el segundo, si es que existe.
 
 La segmentación original del verbo y por ende su pronunciación original se mantendrá incluso despues de ser conjugado.
-Con este fin los infijos junto con la inflexión de afirmación o negación, siempre resultarán en dos segmentos de trés
-sílabas, esto es cierto sobretodo cuando el segundo infijo se mueve de lugar.
+Con este fin los infijos junto con la particula de afirmación/negación, siempre resultarán en un segmento de trés sílabas.
 Con ello aseguramos cumplir con el canon de pronunciación para casi todos los verbos conjugados, salvo cuando la raiz
-este compuesta de únicamente dos, cuatro, siete o diez (1 mod 3) sílabas, cuyas conjugaciones serían las únicas
-excepciones del canon de pronunciacíon, reslutando en segmentos de las siguientes formas:
-233,2332,33232,333232, ...
-(Por lo anterior, casi todas las raices de los verbos tendrán tres, cinco o seis sílabas)
+este compuesta de únicamente dos o cuatro sílabas, cuyas conjugaciones serían las únicas excepciones del canon de
+pronunciacíon, reslutando en segmentos de las siguientes formas:
+     23, 232
+(Por lo anterior, casi todas las raices de los verbos tendrán tres, cinco o más sílabas)
 
 PartNegAf:
 sed    : para afirmar la acción o cualidad del verbo
 (l)oif : para negar la acción o cualidad del verbo
 
 Infijo1 (Codifica el sexo y la categoría simplificada)
-ufem      : VN
-omix      : VV
-ela       : VP
-umai      : VA
-xemo(l)   : ON
+ol   : VN
+mix  : VV
+bal  : VP
+baix : VA
+xem  : ON
 
 Infijo2 (Codifica el número y persona)
-adaedief       : 1S
-oxuoxief       : 2S
-aenaemief      : 3S
-adaedsuis      : 1P
-uxuoxsuis      : 2P
-aenaemsuis     : 3P
+aef  : 1S
+xuof : 2S
+naef : 3S
+dais : 1P
+xuis : 2P
+nais : 3P
 
 
 ConjAux
