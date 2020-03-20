@@ -24,7 +24,7 @@ Las reglas de pronunciación despues de los dos puntos son la norma sugerida de 
 
 Construcción Silabica:
      (c)v(v*)(c)
-Las letras entre parentesis pueden omitirse, sin embargo siempre debe haber una consonante, prefiriendose la segunda.
+Las letras entre parentesis pueden omitirse, sin embargo siempre debe haber una consonante, prefiriendose la última.
 La segunda vocal (v*) está señida a las siguientes reglas de construcción:
      -La segunda vocal no puede ser igual a la primera
      -La segunda vocal nunca puede ser /a/
@@ -35,9 +35,11 @@ La segunda vocal (v*) está señida a las siguientes reglas de construcción:
           -ea, ia, oa, ua
           -io, ue
 Cuando la construcción de una palabra conjunte una sílaba que termine en vocal con otra que comience en vocal,
-se introducirá una /l/ para mantener la estructura sílabica; en los casos en que esta conjunción 
-no viole la construcción de sílabas, la /l/ puede omitirse.
-División silábica: una consonante siempre pertenece a la silaba de la vocal que la antecede, salvo que no exista.
+se introducirá una /l/ para mantener la estructura sílabica; en los casos en que esta conjunción no viole
+la construcción de sílabas, la /l/ podría omitirse.
+División silábica:
+     -las sílabas se generan al rededor de una o dos vocales juntas
+     -una consonante siempre pertenece a la silaba de la vocal que la antecede, salvo que no exista.
 
 
 Pronunciación (fija):
@@ -177,9 +179,9 @@ Infijo2 (Codifica el número y persona)
 aef  : 1S
 xuof : 2S
 naef : 3S
-dais : 1P
-xuis : 2P
-nais : 3P
+daus : 1P
+xous : 2P
+naus : 3P
 
 
 ConjAux
