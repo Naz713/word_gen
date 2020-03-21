@@ -103,14 +103,17 @@ Singular:
      3 (a) |     --------      |      xuoseidoeleonix  | naeseidoeleonix. |
      4     |     idaexao       |      xuoxao           | naexao           |
      5     |     --------      |      xuonima          | naenima          |
-Para los pronombres en plural simplemente se agregrega la palabra "lius" antes del pronombre.
-En el caso de la primera persona "lius" se agrega para el plural exclusivo y "xolius" para el plural inclusivo.
-Sin embargo en casos informales "lius" también puede usarse para denotar el inclusivo, cuando esto es claro.
+Para sus plurales los pronombres de declinan como cualquier otro sujeto.
+En el caso de la primera persona "delius" se agrega para el plural exclusivo y "xolius" para el plural inclusivo.
+Sin embargo en casos informales "delius" puede usarse para denotar el inclusivo, cuando esto es claro.
+Vease más abajo el Auxiliar de Declinación.
 
 
 Estructura de la oración: VSO
+El orden de la oración es sugerida ya que el sujeto y objeto se declinan de todas maneras.
 [Resaltando la importacia de la acción y evidencialidad]
-""" ?Aux + IrrAux + V^C + ConjAux + DecAux1 + Sujeto^D + Title/Name + DecAux2 """
+
+""" ?Aux + IrrAux + V^C + ConjAux + S^D + Title/Name """
 
 
 ?Aux
@@ -149,23 +152,15 @@ Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 
 Además contiene la información de si se habla del verbo en positivo o esta negado.
 
 Estructura de verbo conjugado:
-""" 1ªRaizVerbo + Infijo1 + PartNegAf + Infijo2 + DemasRaices """
+""" Perfijo + PartNegAf + Infijo + RaizVerbo """
 
-Para los propositos de la conjugación del verbo, el verbo sin conjugar al que llamaremos RaizVerbo
-se descompondrá en segmentos de acuerdo a las mismas reglas de segmentación que para la pronunciación.
-Una raiz de verbo nunca podrá conformarse de una sola sílaba.
-
-El primer infijo estará directa y únicamente influenciado por el primer segmento de la raiz del verbo, mientras que el segundo infijo lo estará del segmento a su derecha, el segundo, si es que existe.
+Un verbo sin conjugar nunca debería conformarse de una sola sílaba.
 
 La segmentación original del verbo y por ende su pronunciación original se mantendrá incluso despues de ser conjugado.
 Con este fin los infijos junto con la particula de afirmación/negación, siempre resultarán en un segmento de trés sílabas.
-Con ello aseguramos cumplir con el canon de pronunciación para casi todos los verbos conjugados, salvo cuando la raiz
-este compuesta de únicamente dos o cuatro sílabas, cuyas conjugaciones serían las únicas excepciones del canon de
-pronunciacíon, reslutando en segmentos de las siguientes formas:
-     23, 232
-(Por lo anterior, casi todas las raices de los verbos tendrán tres, cinco o más sílabas)
+Con ello aseguramos cumplir con el canon de pronunciación para todos los verbos conjugados.
 
-Infijo1 (Codifica el número y persona)
+Prefijo (Codifica el número y persona)
 aef  : 1S
 xuof : 2S
 naef : 3S
@@ -177,7 +172,8 @@ PartNegAf:
 sed    : para afirmar la acción o cualidad del verbo
 (l)oif : para negar la acción o cualidad del verbo
 
-Infijo2 (Codifica el sexo y la categoría simplificada)
+Infijo (Codifica el sexo y la categoría simplificada)
+[Podría verse influenciado por el verbo sin conjugar]
 ol   : VN
 mix  : VV
 bal  : VP
@@ -212,23 +208,28 @@ implicitamente cuales son los alcances de cada tiempo y este debe ser constante 
 salvo un gran cambio de paradigma en la propia conversación.
 
 
-Sujeto^D
-Un prefijo codifica singularidad/pluralidad, Despectivo/Neutro/Afectivo y caso.
+(S^D) Declinaciones del sujeto
+El sujeto se declina con un prefijo que codifica singularidad/pluralidad, Despectivo/Neutro/Afectivo y tres casos.
 
-Prefijo + Infijo + RaizSustantivo
+Caso + Posfijo + Sujeto
 
-Prefijo:
-Deferencia | Singular | Plural
------------------------------------------------------------
-Afectivo   |  fini    |  filus
-Neutro     |  del     |  delus
-Despectivo |  xano    |  xalus
+Caso:
+sol       : nominativo podría tomar el uso de otro caso por el verbo.
+nem       : acusativo podría tomar el uso de otro caso por el verbo.
+bin       : vocativo
+Los demás casos, como el genitivo se codificarán con verbos especificos y frases sustantivas.
 
-Infijo:
-(codifica dos casos)
-sol       : nominativo, se codifica por el orden de la oración y podría tomar el uso de otro caso por el verbo
-nem       : acusativo, se codifica por el orden de la oración y podría tomar el uso de otro caso por el verbo
-Los demás casos, como el genitivo se codificarán con verbos especificos y frases sustantivas
+Posfijo:
+Deferencia | Singular |  Plural
+---------------------------------
+Afectivo   |  faneu   |  faulius
+Neutro     |  udel    |  delius / xolius
+Despectivo |  xano    |  xalius
+
+El prefijo "soludel" (nominativo singular neutro deferente) es normalmente omitido, creando un prefijo nulo
+como alternativa.
+En el uso el prefijo nulo es el preferido, dejando el explicito solo en casos poeticos o de enfasis.
+
 
 Frase Sustantiva:
 Para crear una frase sustantiva cambia el orden de la frase a (SVO).
