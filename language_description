@@ -87,22 +87,22 @@ eo      - "masculino" : que tiene pene o su equivalente organo reproductivo
 Pronombres:
 Por categoría, número y persona
 Singular:
- Categoría |  Primera Persona  |    Segunda Persona    |    Tercera Persona
- ----------------------------------------------------------------------------
-     1 (n) |     idaed         |      xuo              | naem
-     1 (v) |     idaedoel      |      xuodoem          | naedoem
-     1 (p) |     idaeneo       |      xuoneom          | naeleom
-     1 (a) |     idaeneodoel   |      xuodoeneom       | naedoeleom
-     2 (n) |     uldaed        |      xuol             | naemul
-     2 (v) |     uldaedoel     |      moexuol          | naemudoem
-     2 (p) |     uldaeneo      |      neoxuol          | naemuleom
-     2 (a) |     uldaeneodoel  |      moeleoxuol       | naemudoeleom
-     3 (n) |     --------      |      xuoseinix        | naeseinix
-     3 (v) |     --------      |      xuoseidoenix     | naeseidoenix
-     3 (p) |     --------      |      xuoseineonix     | naeseineonix
-     3 (a) |     --------      |      xuoseidoeleonix  | naeseidoeleonix
-     4     |     idaexao       |      xuoxao           | naexao
-     5     |     --------      |      xuonima          | naenima
+ Categoría |  Primera Persona  |    Segunda Persona    |  Tercera Persona | Indefinido
+ -----------------------------------------------------------------------------------------
+     1 (n) |     idaed         |      xuo              | naem             |
+     1 (v) |     idaedoel      |      xuodoem          | naedoem          |
+     1 (p) |     idaeneo       |      xuoneom          | naeleom          |
+     1 (a) |     idaeneodoel   |      xuodoeneom       | naedoeleom       |
+     2 (n) |     uldaed        |      xuol             | naemul           |
+     2 (v) |     uldaedoel     |      moexuol          | naemudoem        |
+     2 (p) |     uldaeneo      |      neoxuol          | naemuleom        |
+     2 (a) |     uldaeneodoel  |      moeleoxuol       | naemudoeleom     |
+     3 (n) |     --------      |      xuoseinix        | naeseinix        |
+     3 (v) |     --------      |      xuoseidoenix     | naeseidoenix     |
+     3 (p) |     --------      |      xuoseineonix     | naeseineonix     |
+     3 (a) |     --------      |      xuoseidoeleonix  | naeseidoeleonix. |
+     4     |     idaexao       |      xuoxao           | naexao           |
+     5     |     --------      |      xuonima          | naenima          |
 Para los pronombres en plural simplemente se agregrega la palabra "lius" antes del pronombre.
 En el caso de la primera persona "lius" se agrega para el plural exclusivo y "xolius" para el plural inclusivo.
 Sin embargo en casos informales "lius" también puede usarse para denotar el inclusivo, cuando esto es claro.
@@ -211,23 +211,20 @@ implicitamente cuales son los alcances de cada tiempo y este debe ser constante 
 salvo un gran cambio de paradigma en la propia conversación.
 
 
-DecAux1 (Preposición)
-Codifica los casos:
-: nominativo
-: acusativo
-: dativo
-: hablativo
+Casos:
+(omite) : nominativo, se codifica por el orden de la oración
+(omite) : acusativo, se codifica por el orden de la oración
+[verbo] : genitivo, se codifica mediante un verbo y una frase sustantiva
+Los demás casos se codificarán con verbos espedificos y frases sustantivas
 
 Sujeto^D
 Una post-inflexión codifica singularidad/pluralidad, Despectivo/Neutro/Afectivo.
 
 Deferencia | Singular | Plural
 -----------------------------------------------------------
-Afectivo   | 
-Neutro     |
-Despectivo |
-
-DecAux2 (PostPosición)
+Afectivo   |  fini    |  filus
+Neutro     | (omite)  | (l)us
+Despectivo |  xano    |  xalus
 
 
 
