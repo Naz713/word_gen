@@ -109,6 +109,7 @@ Sin embargo en casos informales "lius" también puede usarse para denotar el inc
 
 
 Estructura de la oración: VSO
+[Resaltando la importacia de la acción y evidencialidad]
 """ ?Aux + IrrAux + V^C + ConjAux + DecAux1 + Sujeto^D + Title/Name + DecAux2 """
 
 
@@ -164,24 +165,24 @@ pronunciacíon, reslutando en segmentos de las siguientes formas:
      23, 232
 (Por lo anterior, casi todas las raices de los verbos tendrán tres, cinco o más sílabas)
 
-PartNegAf:
-sed    : para afirmar la acción o cualidad del verbo
-(l)oif : para negar la acción o cualidad del verbo
-
-Infijo1 (Codifica el sexo y la categoría simplificada)
-ol   : VN
-mix  : VV
-bal  : VP
-baix : VA
-xem  : ON
-
-Infijo2 (Codifica el número y persona)
+Infijo1 (Codifica el número y persona)
 aef  : 1S
 xuof : 2S
 naef : 3S
 daus : 1P
 xous : 2P
 naus : 3P
+
+PartNegAf:
+sed    : para afirmar la acción o cualidad del verbo
+(l)oif : para negar la acción o cualidad del verbo
+
+Infijo2 (Codifica el sexo y la categoría simplificada)
+ol   : VN
+mix  : VV
+bal  : VP
+baix : VA
+xem  : ON
 
 
 ConjAux
@@ -211,20 +212,36 @@ implicitamente cuales son los alcances de cada tiempo y este debe ser constante 
 salvo un gran cambio de paradigma en la propia conversación.
 
 
-Casos:
-(omite) : nominativo, se codifica por el orden de la oración
-(omite) : acusativo, se codifica por el orden de la oración
-[verbo] : genitivo, se codifica mediante un verbo y una frase sustantiva
-Los demás casos se codificarán con verbos espedificos y frases sustantivas
-
 Sujeto^D
-Una post-inflexión codifica singularidad/pluralidad, Despectivo/Neutro/Afectivo.
+Un prefijo codifica singularidad/pluralidad, Despectivo/Neutro/Afectivo y caso.
 
+Prefijo + Infijo + RaizSustantivo
+
+Prefijo:
 Deferencia | Singular | Plural
 -----------------------------------------------------------
 Afectivo   |  fini    |  filus
-Neutro     | (omite)  | (l)us
+Neutro     |  del     |  delus
 Despectivo |  xano    |  xalus
+
+Infijo:
+(codifica dos casos)
+sol       : nominativo, se codifica por el orden de la oración y podría tomar el uso de otro caso por el verbo
+nem       : acusativo, se codifica por el orden de la oración y podría tomar el uso de otro caso por el verbo
+Los demás casos, como el genitivo se codificarán con verbos especificos y frases sustantivas
+
+Frase Sustantiva:
+Para crear una frase sustantiva cambia el orden de la frase a (SVO).
+
+
+
+
+
+
+
+
+
+
 
 
 
