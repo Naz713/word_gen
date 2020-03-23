@@ -1,11 +1,11 @@
 
 "La lengua de aquellos que viajan sin hogar"
 
-Se pretende a esta lengua como un artlang que suene mágica, algo como latin, en general ajena o foranea.
+Se pretende a esta lengua como un artlang que suene mágica, algo como latin; en general ajena o foranea.
 Al mismo tiempo debe ser suficientemente facil de pronunciar para la mayoría de las personas,
 enfocandose particularmente en hablantes de español, inglés y mandarín.
 La complejidad también debe ser baja pretendiendo ser relativamente facil de aprender,
-incluso si con ello se pierde un poco su ilusión de naturalidad.
+incluso si con ello se pierde un poco la ilusión de ser una lengua natural.
 
 Catalogo de Letras y pronunciaciones:
 /a/ [ä, ə]       : ə|_(c)$
@@ -30,7 +30,8 @@ Las reglas de pronunciación despues de los dos puntos son la norma sugerida de 
 
 Construcción Silabica:
      (c)v(v*)(c)
-Las letras entre parentesis pueden omitirse, sin embargo siempre debe haber una consonante, prefiriendose la última.
+Las letras entre parentesis pueden omitirse, sin embargo siempre debe haber una consonante,
+prefiriendose la última.
 La segunda vocal (v*) está señida a las siguientes reglas de construcción:
      -La segunda vocal no puede ser igual a la primera
      -La segunda vocal nunca puede ser /a/
@@ -40,9 +41,9 @@ La segunda vocal (v*) está señida a las siguientes reglas de construcción:
           -aa, ee, ii, oo, uu
           -ea, ia, oa, ua
           -io, ue
-Cuando la construcción de una palabra conjunte una sílaba que termine en vocal con otra que comience en vocal,
-se introducirá una /l/ para mantener la estructura sílabica; en los casos en que esta conjunción no viole
-la construcción de sílabas, la /l/ podría omitirse.
+Cuando la construcción de una palabra conjunte una sílaba que termine en vocal
+con otra que comience en vocal, se introducirá una /l/ para mantener la estructura sílabica;
+en los casos en que esta conjunción no viole la construcción de sílabas, la /l/ podría omitirse.
 División silábica:
      -las sílabas se generan al rededor de una o dos vocales juntas
      -una consonante siempre pertenece a la silaba de la vocal que la antecede, salvo que no exista.
@@ -110,9 +111,10 @@ Singular:
      4     |     idaexao       |      xuoxao           | naexao           |
      5     |     --------      |      xuonima          | naenima          |
 Para sus plurales los pronombres de declinan como cualquier otro sujeto.
-En el caso de la primera persona "-delius-" se agrega para el plural exclusivo y "-xolius-" para el plural inclusivo.
+En el caso de la primera persona "-delius-" se agrega para el plural exclusivo
+y "-xolius-" para el plural inclusivo.
 Sin embargo en casos informales "-delius-" puede usarse para denotar el inclusivo, cuando esto es claro.
-Vease más abajo el Auxiliar de Declinación.
+Veanse más abajo las declinaciones.
 
 
 Estructura de la oración: VSO
@@ -134,7 +136,8 @@ usileum  - pregunta por el proceso (cómo/how)
 um       - pregunta por un valor de verdad (es cierto lo siguiente)
 
 Tema: "bax"
-Palabra que indica donde se centra la atención de la oración, en el caso de una pregunta cual es el tema de la pregunta.
+Palabra que indica donde se centra la atención de la oración, en el caso de una pregunta
+cual es el tema de la pregunta.
 Es indispensable en las preguntas con la particula "um". Antecede a la palabra que resalta.
 
 
@@ -144,17 +147,19 @@ así como si se trata solo de algo hypotetico.
 
 Evidenciality   |   Hypotetical |   Non-hypotetical
 -----------------------------------------------------
-Certainty       |    nael       |    saelael
-Deduction       |   (omite)     |    sael
-Asumption       |    xaos       |    xaosael
+Certeza         |    nael       |    saelael
+Deducción       |   (omite)     |    sael
+Asumpción       |    xaos       |    xaosael
 
-En la practica la categoria de Certainty es muy rara, solo usada cuando es necesario denotar lo verdaderamente fidedigno
-de la información. La categoria de Deduction tambíen se usará para hablar desde la memoria, será la más usada.
+En la practica la categoria de Certeza es muy rara, solo usada cuando es necesario denotar
+lo verdaderamente fidedignode la información.
+La categoria de Deduction tambíen se usará para hablar desde la memoria, será la más usada.
 
 
 (V^C) Conjugaciones del Verbo:
-Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 2ª, 3ª), número (S, P) y categoria
-(para este objetivo las categorias se simplifican: 1,2,3/4,5, vivo y sexuable "V" contra no vivo ni sexuable "O").
+Al conjugarse el verbo este debe coincidir con sexo (n, v, p, a), persona (1ª, 2ª, 3ª), número (S, P)
+y categoria (para este objetivo las categorias se simplifican:
+     1,2,3/4,5, vivo y sexuable "V" contra no vivo ni sexuable "O").
 Además contiene la información de si se habla del verbo en positivo o esta negado.
 
 Estructura de verbo conjugado:
@@ -162,8 +167,10 @@ Estructura de verbo conjugado:
 
 Un verbo sin conjugar nunca debería conformarse de una sola sílaba.
 
-La segmentación original del verbo y por ende su pronunciación original se mantendrá incluso despues de ser conjugado.
-Con este fin los infijos junto con la particula de afirmación/negación, siempre resultarán en un segmento de trés sílabas.
+La segmentación original del verbo y por ende su pronunciación original se mantendrá
+incluso despues de ser conjugado.
+Con este fin los infijos junto con la particula de afirmación/negación,
+siempre resultarán en un segmento de trés sílabas.
 Con ello aseguramos cumplir con el canon de pronunciación para todos los verbos conjugados.
 
 Prefijo (Codifica el número y persona)
@@ -197,25 +204,29 @@ Perfect              |    neixlae          |     lae          |  (omite) |  biex
 Imperfect/Progresive |    neixlaeleum      |     laeleum      |   duem   |  biexeum
 Habitual             |    neixlaefaeb      |     laefaeb      |   faeb   |  biefaeb
 
-El pasado inmemorable denota eventos que cayeron de cierta forma en el olvido, que ya no existen,
-siempre debe considerarse el contexto en el que se está usando, ya que no necesariamente es algo tan lejano en el tiempo.
-Bajo la optica de esta cultura el pasado es destruido algún tiempo despues de ser vivido,
-haciendo el viaje al pasado algo incomprensible, para hablar de eventos en este peridiodo de tiempo destruido se usa
-el pasado inmemorable, que es sujeto al contexto y sobretodo a la percepcion del hablante.
-
 El presente no es solo un instante, sino la experiencia que vivimos del presente.
 El presente incluye el pasado reciente, de no más de algunas horas en la mayoria de los casos,
 aunque el alcance puede crecer por contexto.
 
+El pasado inmemorable denota eventos que cayeron de cierta forma en el olvido, que ya no existen,
+siempre debe considerarse el contexto en el que se está usando,
+ya que no necesariamente es algo muy lejano en el tiempo.
+Bajo la optica de esta cultura el pasado es destruido despues de ser vivido, al dejar de ser experimentado,
+haciendo el viaje al pasado algo incomprensible, para hablar de eventos en este peridiodo de tiempo
+destruido se usa el pasado inmemorable, que es sujeto al contexto y sobretodo a la percepcion del hablante.
+
 El pasado memorable comprende el tiempo entre los dos casos anteriores.
 
-Al ser el tiempo experinecial/relativo en lugar de absoluto, en cada conversación el o los hablantes estableceran
-implicitamente cuales son los alcances de cada tiempo y este debe ser constante durante la conversación o el tema,
-salvo un gran cambio de paradigma en la propia conversación.
+Al ser el tiempo experinecial/relativo en lugar de absoluto, en cada conversación los hablantes
+estableceran implicitamente cuales son los alcances de cada tiempo y estos deben ser constantes
+durante la conversación o el tema, salvo un gran cambio de paradigma en la propia conversación.
 
 
 (S^D) Declinaciones del sujeto
-El sujeto se declina con un prefijo que codifica singularidad/pluralidad, Despectivo/Neutro/Afectivo y tres casos.
+El sujeto se declina con un prefijo que codifica:
+-singularidad/pluralidad
+-deferencia: Despectivo/Neutro/Afectivo
+-caso
 
 Caso + Posfijo + Sujeto
 
@@ -232,8 +243,8 @@ Afectivo   |  faneu   |  faulius
 Neutro     |  udel    |  delius / xolius
 Despectivo |  xano    |  xalius
 
-El prefijo "soludel" (nominativo singular neutro deferente) es normalmente omitido, creando un prefijo nulo
-como alternativa.
+El prefijo "soludel" (nominativo singular neutro deferente) es normalmente omitido, es decir,
+puede ser reemplazado por un prefijo nulo.
 En el uso el prefijo nulo es el preferido, dejando el explicito solo en casos poeticos o de enfasis.
 
 
